@@ -97,7 +97,7 @@ function HeroSection() {
       <div className="absolute bottom-0 left-0 right-0 h-32 sm:h-48 md:h-64 bg-gradient-to-t from-background to-transparent" />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 sm:px-6 md:px-8 pt-20 sm:pt-24 md:pt-28 lg:pt-32 w-full max-w-6xl mx-auto">
+      <div className="relative z-10 text-center px-4 sm:px-6 md:px-8 pt-20 sm:pt-36 md:pt-40 lg:pb-64 w-full max-w-6xl mx-auto">
         <motion.div {...fadeUp(0)} className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 mb-4 sm:mb-6">
           <span className="px-3 py-1 rounded-xl text-background font-semibold bg-foreground text-xs sm:text-sm">New</span>
           <span className="text-xs sm:text-sm text-muted-foreground">7,000+ people already subscribed</span>
